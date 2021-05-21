@@ -35,6 +35,7 @@ $(call inherit-product, device/motorola/sm7325-common/sm7325.mk)
 PRODUCT_PACKAGES += \
     FrameworksResBerlin \
     LineageSystemUIBerlin \
+    SettingsProviderResBerlin \
     SystemUIResBerlin
 
 # Audio
