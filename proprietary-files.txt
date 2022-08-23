@@ -483,7 +483,6 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/config/stk3a5x_0_always.json
 vendor/etc/sensors/config/stk3a5x_0_emerald_always.json
 vendor/etc/sensors/config/stk3a5x_0_white_always.json
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/proto/als_mastercal.proto
 vendor/etc/sensors/proto/descriptor.proto
 vendor/etc/sensors/proto/mot_barocal.proto
@@ -586,5 +585,3 @@ vendor/firmware/csot_stm_fts_production_limits.csv
 vendor/firmware/stmicro-csot-fts3639-21120227-de141027-berlin.ftb
 vendor/firmware/stmicro-visionox-fts3639-21072312-0009200c-berlin.ftb
 vendor/firmware/visionox_stm_fts_production_limits.csv
-
-
