@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80dfc98a_645632cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2022-09-19T23:22:28Z",
+      "side": 1,
+      "message": "Vendor blob change is here https://github.com/moto-sm7325/proprietary_vendor_motorola/tree/lineage-19.1",
+      "revId": "abbb1c9a0ad766e36d4743fce5261897a397b5e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
