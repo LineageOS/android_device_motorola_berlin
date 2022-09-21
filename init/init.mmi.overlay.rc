@@ -25,6 +25,11 @@ on fs
    # Goodix fingerprint sensor GF3626 reuses the driver "goodix_fod_mmi.ko"
    insmod /vendor/lib/modules/goodix_fod_mmi.ko
 
+on post-fs
+    # Sensors
+    chown system system/sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/touchscreen/primary/double_tap_enabled
+    chown system system /sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/touchscreen/primary/double_tap_pressed
+
 on post-fs-data
     mkdir /mnt/vendor/persist/tof 0755 vendor_tcmd camera
     chown vendor_tcmd camera /mnt/vendor/persist/tof/refspad_cal
