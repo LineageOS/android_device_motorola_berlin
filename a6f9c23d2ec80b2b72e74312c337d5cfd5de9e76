@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22a854f1_c9fb108d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2022-09-25T21:18:37Z",
+      "side": 1,
+      "message": "vendor commit is here\n\nhttps://github.com/moto-sm7325/proprietary_vendor_motorola/commits/lineage-19.1",
+      "revId": "a6f9c23d2ec80b2b72e74312c337d5cfd5de9e76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
