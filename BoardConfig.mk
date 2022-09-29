@@ -22,9 +22,6 @@ include device/motorola/sm7325-common/BoardConfigCommon.mk
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := berlin
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
-
 # HIDL
 DEVICE_MANIFEST_YUPIK_FILES += $(DEVICE_PATH)/manifest_berlin.xml
 
