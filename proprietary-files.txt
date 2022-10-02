@@ -48,6 +48,10 @@ vendor/lib/com.qti.settings.mannar.so
 vendor/lib/com.qti.settings.sdm865.so
 vendor/lib/com.qti.settings.sm8350.so
 vendor/lib/com.qti.stats.common.so
+vendor/lib/com.qualcomm.mcx.distortionmapper.so
+vendor/lib/com.qualcomm.mcx.linearmapper.so
+vendor/lib/com.qualcomm.mcx.policy.mfl.so
+vendor/lib/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib/libarcsoft_distortion_correction.so
 vendor/lib/libarcsoft_portrait_distortion_correction.so
 vendor/lib/libbitmlengine.so
@@ -115,6 +119,10 @@ vendor/lib64/com.qti.settings.mannar.so
 vendor/lib64/com.qti.settings.sdm865.so
 vendor/lib64/com.qti.settings.sm8350.so
 vendor/lib64/com.qti.stats.common.so
+vendor/lib64/com.qualcomm.mcx.distortionmapper.so
+vendor/lib64/com.qualcomm.mcx.linearmapper.so
+vendor/lib64/com.qualcomm.mcx.policy.mfl.so
+vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib64/libarcsoft_distortion_correction.so
 vendor/lib64/libarcsoft_portrait_distortion_correction.so
 vendor/lib64/libarcsoft_triple_sat.so
