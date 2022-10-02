@@ -437,25 +437,18 @@ vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@3.0.so
 
 # MotCamera3
 product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
+product/priv-app/MotCamera3/MotCamera3.apk;OVERRIDES=Camera2|856e4a7ea4b6f1efcf79f334eb7f64b71d647cb9
+system_ext/etc/public.libraries-motocamera.txt
+system_ext/framework/com.motorola.androidx.camera.extensions.jar
+system_ext/lib/libmcf_native_window_helper.motocamera.so
+system_ext/lib64/libmcf_native_window_helper.motocamera.so
+
+# MotCamera3 - Permissions
 product/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
 product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
 product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
-product/priv-app/MotCamera3/MotCamera3.apk;OVERRIDES=Camera2|3061d72f22597d1ca364308ae05b8fb5fcf1e3bd
--system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
-system/etc/permissions/com.motorola.motosignature.xml
-system/etc/permissions/moto-core_services.xml
-system/etc/permissions/moto-settings.xml
-system/framework/com.motorola.motosignature.jar
-system/framework/moto-core_services.jar
-system/framework/moto-settings.jar
-system_ext/bin/motsettings
 system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml
-system_ext/framework/com.motorola.androidx.camera.extensions.jar
-system_ext/etc/public.libraries-motocamera.txt
-system_ext/lib/libmcf_native_window_helper.motocamera.so
-system_ext/lib64/libmcf_native_window_helper.motocamera.so
--system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
 
 # MotCamera3 - libs
 product/lib64/libFNVfbEngineHAL.so|a7365d9e7d728df8d4ad6ecfba07961fcf924d75
@@ -505,10 +498,10 @@ product/lib64/libtensorflowlite.so|17f94dc427220788db8f10d658d3a330488ac7d6
 product/lib64/libtensorflowlite_gpu_delegate.so|821bcbece27d47c49daac00a65fdf48213befad1
 
 # Moto Permissions
-product/etc/permissions/com.motorola.camera3.xml:vendor/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/com.motorola.camera3.berlin.xml:vendor/etc/permissions/com.motorola.camera3.berlin.xml
 product/etc/permissions/com.motorola.camera3.content.ai.xml:vendor/etc/permissions/com.motorola.camera3.content.ai.xml
 product/etc/permissions/com.motorola.camera3.lens.xml:vendor/etc/permissions/com.motorola.camera3.lens.xml
+product/etc/permissions/com.motorola.camera3.xml:vendor/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/com.motorola.moto-uirefresh.xml
 product/etc/permissions/com.motorola.motodisplay.xml
 product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml
