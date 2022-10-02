@@ -35,6 +35,10 @@ vendor/lib/soundfx/libmaxxeffect-cembedded.so
 # Camera
 vendor/etc/pwr/PowerFeatureConfig.xml
 vendor/etc/pwr/VideoPowerOptFeature.xml
+vendor/lib/com.qualcomm.mcx.distortionmapper.so
+vendor/lib/com.qualcomm.mcx.linearmapper.so
+vendor/lib/com.qualcomm.mcx.policy.mfl.so
+vendor/lib/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib/com.qti.chiusecaseselector.so
 vendor/lib/com.qti.settings.kamorta.so
 vendor/lib/com.qti.settings.kodiak.so
@@ -102,6 +106,10 @@ vendor/lib/camera/fdconfigvideo.bin
 vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
+vendor/lib64/com.qualcomm.mcx.distortionmapper.so
+vendor/lib64/com.qualcomm.mcx.linearmapper.so
+vendor/lib64/com.qualcomm.mcx.policy.mfl.so
+vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.settings.kamorta.so
 vendor/lib64/com.qti.settings.kodiak.so
