@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81cbf4ce_cedf085f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-10-10T02:18:50Z",
+      "side": 1,
+      "message": "You need to override Aperture, Camera2 is no longer built by default, Camera2 is opt-in and overrides Aperture",
+      "revId": "2f73bd135a83ed360d6c2d9f6c157c3aca1080c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
