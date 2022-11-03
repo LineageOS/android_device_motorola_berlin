@@ -451,17 +451,17 @@ system/framework/moto-core_services.jar
 system/framework/moto-settings.jar
 system_ext/bin/motsettings
 system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml
-system_ext/framework/com.motorola.androidx.camera.extensions.jar
 system_ext/etc/public.libraries-motocamera.txt
+system_ext/framework/com.motorola.androidx.camera.extensions.jar
 system_ext/lib/libmcf_native_window_helper.motocamera.so
 system_ext/lib64/libmcf_native_window_helper.motocamera.so
 -system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
 
 # Moto Permissions
-product/etc/permissions/com.motorola.camera3.xml:vendor/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/com.motorola.camera3.berlin.xml:vendor/etc/permissions/com.motorola.camera3.berlin.xml
 product/etc/permissions/com.motorola.camera3.content.ai.xml:vendor/etc/permissions/com.motorola.camera3.content.ai.xml
 product/etc/permissions/com.motorola.camera3.lens.xml:vendor/etc/permissions/com.motorola.camera3.lens.xml
+product/etc/permissions/com.motorola.camera3.xml:vendor/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/com.motorola.moto-uirefresh.xml
 product/etc/permissions/com.motorola.motodisplay.xml
 product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml
