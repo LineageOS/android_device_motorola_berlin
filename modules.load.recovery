@@ -12,3 +12,9 @@ bm_adsp_ulog.ko
 mmi_charger.ko
 qti_glink_charger.ko
 qpnp_adaptive_charge.ko
+adsp_loader_dlkm.ko
+apr_dlkm.ko
+msm_drm.ko
+q6_notifier_dlkm.ko
+q6_pdr_dlkm.ko
+snd_event_dlkm.ko
