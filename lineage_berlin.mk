@@ -36,4 +36,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=berlin_retail \
     PRIVATE_BUILD_DESC="berlin_global-user 12 S1RGS32.53-18-22-11 2367ac-b6e7c release-keys"
 
-BUILD_FINGERPRINT := motorola/berlin_global/berlin:12/S1RGS32M.53-18-22-11/b6e7c:user/release-keys
+BUILD_FINGERPRINT := motorola/berlin_global/berlin:12/S1RGS32.53-18-22-11/b6e7c:user/release-keys
