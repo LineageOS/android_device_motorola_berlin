@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from S1RGS32M.53-18-22-25 d0b09 release-keys.
+# All unpinned blobs below are extracted from berlin_global-user 12 S1RGS32.53-18-22-33 c29562-b008c release-keys.
 
 # ACDB Data
 vendor/etc/acdbdata/nn_ns_models/candidate__2.7.1.31__3.0.0__eai_1.10_enpu1.pmd
