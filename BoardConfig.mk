@@ -56,7 +56,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
 # Security
-VENDOR_SECURITY_PATCH := 2023-06-01
+VENDOR_SECURITY_PATCH := 2023-09-01
 
 # inherit from the proprietary version
 include vendor/motorola/berlin/BoardConfigVendor.mk

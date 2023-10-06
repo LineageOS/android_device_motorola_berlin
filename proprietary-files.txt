@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from berlin_global-user 12 S1RGS32.53-18-22-33 c29562-b008c release-keys.
+# All unpinned blobs below are extracted from berlin_global-user 13 T1RGS33M.135-109-9-1 cd9ba-7b59ee release-keys.
 
 # ACDB Data
 vendor/etc/acdbdata/nn_ns_models/candidate__2.7.1.31__3.0.0__eai_1.10_enpu1.pmd
@@ -435,8 +435,8 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@3.0.so
 
 # HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
@@ -446,7 +446,7 @@ product/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
 product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
 product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
-product/priv-app/MotCamera3/MotCamera3.apk;OVERRIDES=Aperture;PRESIGNED
+product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture;PRESIGNED
 -system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
 system/etc/permissions/com.motorola.motosignature.xml
 system/etc/permissions/moto-core_services.xml
@@ -455,11 +455,6 @@ system/framework/com.motorola.motosignature.jar
 system/framework/moto-core_services.jar
 system/framework/moto-settings.jar
 system_ext/bin/motsettings
-system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml
-system_ext/etc/public.libraries-motocamera.txt
-system_ext/framework/com.motorola.androidx.camera.extensions.jar
-system_ext/lib/libmcf_native_window_helper.motocamera.so
-system_ext/lib64/libmcf_native_window_helper.motocamera.so
 -system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
 
 # Moto Permissions
@@ -470,7 +465,6 @@ product/etc/permissions/com.motorola.camera3.xml:vendor/etc/permissions/com.moto
 product/etc/permissions/com.motorola.moto-uirefresh.xml
 product/etc/permissions/com.motorola.motodisplay.xml
 product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml
-system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml:vendor/etc/permissions/com.motorola.androidx.camera.extensions.xml
 
 # NFC
 vendor/bin/STFlashTool
