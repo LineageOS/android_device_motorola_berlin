@@ -1,3 +1,3 @@
-# Firmware - from berlin_global-user 13 T1RGS33.135-109-9-7 9d4ba5-7c15b7 release-keys - RETAIL variant - (factory image).
+# Firmware - from berlin_global-user 13 T1RGS33.135-109-9-15 4483d-3643e release-keys - RETAIL variant - (factory image).
 
 BTFM.bin:bluetooth.img;AB

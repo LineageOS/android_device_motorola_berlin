@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from berlin_global-user 13 T1RGS33.135-109-9-15 4483d-3643e release-keys - RETAIL variant.
+# All unpinned blobs below are extracted from berlin_global-user 13 T1RGS33.135-109-9-15 4483d-3643e release-keys - RETAIL variant - (factory image).
 
 # ACDB Data
 vendor/etc/acdbdata/Bluetooth_cal.acdb
