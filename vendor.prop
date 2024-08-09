@@ -6,9 +6,6 @@ persist.vendor.audio_fx.waves.processing=true
 persist.vendor.audio_fx.waves.processing_nx=true
 persist.vendor.audio_fx.waves.systrace=true
 
-# Bluetooth
-bluetooth.device.default_name=moto edge 20
-
 # Camera
 persist.vendor.camera.physical.num=4
 
