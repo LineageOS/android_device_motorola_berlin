@@ -33,8 +33,6 @@ PRODUCT_MODEL := motorola edge 20
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=berlin_retail \
-    PRIVATE_BUILD_DESC="berlin_global-user 13 T1RGS33.135-109-9-29 695e0-d4b251 release-keys"
-
-BUILD_FINGERPRINT := motorola/berlin_global/berlin:13/T1RGS33.135-109-9-29/695e0-d4b251:user/release-keys
-
+    BuildDesc="berlin_global-user 13 T1RGS33.135-109-9-29 695e0-d4b251 release-keys" \
+    BuildFingerprint=motorola/berlin_global/berlin:13/T1RGS33.135-109-9-29/695e0-d4b251:user/release-keys \
+    DeviceName=berlin_retail
