@@ -289,9 +289,6 @@ product/etc/permissions/com.motorola.moto-uirefresh.xml
 product/etc/permissions/com.motorola.motodisplay.xml
 product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml
 
-# NFC
-vendor/bin/STFlashTool
-
 # NFC - configs
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-mtp-SN100.conf
