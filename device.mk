@@ -56,7 +56,7 @@ $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/bin/*.sh),\
 
 # Lineage Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.berlin
+    vendor.lineage.touch-service.berlin
 
 # NFC
 PRODUCT_PACKAGES += \
