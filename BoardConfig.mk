@@ -11,9 +11,6 @@ include device/motorola/sm7325-common/BoardConfigCommon.mk
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := berlin
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=berlin
 TARGET_KERNEL_CONFIG += vendor/lineage_berlin.config

@@ -51,6 +51,9 @@ PRODUCT_PACKAGES += \
     init.mmi.overlay.rc \
     init.vendor.st21nfc.rc
 
+# LiveDisplay
+$(call soong_config_set,livedisplay_sysfs,enable_af,true)
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st \
