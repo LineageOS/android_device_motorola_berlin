@@ -60,7 +60,7 @@
          backlight values for lux levels between these control points.
 
          Must be overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessLevels">
+    <array name="config_autoBrightnessLevels">
         <item>5</item>
         <item>10</item>
         <item>40</item>
@@ -69,7 +69,7 @@
         <item>1250</item>
         <item>3500</item>
         <item>5500</item>
-    </integer-array>
+    </array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
          in the config_autoBrightnessLevels array. The display brightness is defined as the measured
@@ -83,7 +83,7 @@
          This array should have size one greater than the size of the config_autoBrightnessLevels
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessDisplayValuesNits">
+    <array name="config_autoBrightnessDisplayValuesNits">
         <item>5</item>
         <item>12</item>
         <item>24</item>
@@ -93,13 +93,13 @@
         <item>192</item>
         <item>252</item>
         <item>500</item>
-    </integer-array>
+    </array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
          values in the config_screenBrightnessNits array.
 
          This array should be equal in size to config_screenBrightnessBacklight. -->
-    <integer-array name="config_screenBrightnessBacklight">
+    <array name="config_screenBrightnessBacklight">
         <item>0</item>
         <item>4</item>
         <item>7</item>
@@ -110,7 +110,7 @@
         <item>102</item>
         <item>138</item>
         <item>255</item>
-    </integer-array>
+    </array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
          values in the config_screenBrightnessBacklight array.  On OLED displays these  values
@@ -119,7 +119,7 @@
          brightness modes but only the maximum brightness value obtainable in a sustainable manner.
 
          This array should be equal in size to config_screenBrightnessBacklight -->
-    <integer-array name="config_screenBrightnessNits">
+    <array name="config_screenBrightnessNits">
         <item>0</item>
         <item>5</item>
         <item>12</item>
@@ -130,7 +130,7 @@
         <item>192</item>
         <item>252</item>
         <item>500</item>
-    </integer-array>
+    </array>
 
     <!-- MMS user agent string -->
     <string name="config_mms_user_agent" translatable="false">motorolaedge20pro</string>
