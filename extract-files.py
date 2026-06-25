@@ -38,8 +38,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
-    ('vendor/lib/libmot_chi_desktop_helper.so', 'vendor/lib64/libmot_chi_desktop_helper.so'): blob_fixup()
-        .add_needed('libgui_shim_vendor.so'),
+    'vendor/lib64/libmot_chi_desktop_helper.so': blob_fixup()
+        .add_needed('libgui_buffer_shim_vendor.so'),
     (
         'vendor/lib64/camera/components/com.mot.node.c2d.so',
         'vendor/lib64/camera/components/com.qti.node.dewarp.so',
