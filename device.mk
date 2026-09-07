@@ -75,5 +75,10 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set, MOTOROLA_TOUCH, HIGH_TOUCH_POLLING_PATH, /sys/class/touchscreen/primary/interpolation)
 
+# VINTF
+ODM_MANIFEST_SKUS += n
+ODM_MANIFEST_N_FILES := \
+    device/motorola/sm7325-common/vintf/manifest_ss.xml
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/berlin/berlin-vendor.mk)
