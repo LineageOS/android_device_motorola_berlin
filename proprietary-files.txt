@@ -87,7 +87,6 @@ vendor/lib64/libmot_afd.so
 vendor/lib64/libmot_chi_desktop_helper.so
 vendor/lib64/libmot_engine_settings.so
 vendor/lib64/libmotoisdataqueue.so
-vendor/lib64/libmpbase.so
 vendor/lib64/libofflinedump.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
@@ -273,11 +272,7 @@ product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
 product/priv-app/MotCamera4/MotCamera4.apk;PRESIGNED
 system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
 system/etc/permissions/com.motorola.motosignature.xml
-system/etc/permissions/moto-core_services.xml
-system/etc/permissions/moto-settings.xml
 system/framework/com.motorola.motosignature.jar
-system/framework/moto-core_services.jar
-system/framework/moto-settings.jar
 system_ext/bin/motsettings
 system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
 
